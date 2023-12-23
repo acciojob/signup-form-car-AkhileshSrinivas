@@ -20,7 +20,7 @@
 		<input type="radio" id="gender_f" name="gender" value="female"> female
 		<br>
 		<label for="cars">Car Brands</label>
-		<select id="cars" re>
+		<select id="cars" required>
 			<option selected>--Please choose an option--</option>
 			<option>bmw</option>
 			<option>benz</option>
@@ -29,6 +29,15 @@
 		</select>
 		<label for="age">Age</label>
 		<input type="number" id="age" name="age" required>
+		<label for="dob">DOB</label>
+		<input type="date" id="dob" name="dob" required>
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" required>
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" id="tos" name="tos" required>
+		<button type="submit">submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
